@@ -1,8 +1,12 @@
 {
-    "name": "composer/installers",
+    "name": "microweber-packages/composer-installers",
     "type": "composer-plugin",
+    "version": "2.3.0",
     "license": "MIT",
-    "description": "A multi-framework Composer library installer",
+    "description": "Microweber fork of composer/installers (adds the microweber-module / microweber-template install paths). Replaces composer/installers.",
+    "replace": {
+        "composer/installers": "*"
+    },
     "keywords": [
         "installer",
         "AGL",
